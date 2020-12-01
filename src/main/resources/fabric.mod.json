@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "gud_asm",
+  "version": "${version}",
+
+  "name": "gudASM",
+  "description": "Let's break all the things!",
+  "authors": [
+    "gudenau"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "",
+  "icon": "assets/gud_asm/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": []
+  },
+  "mixins": [
+    "gud_asm.mixins.json"
+  ],
+  "languageAdapters": {
+    "gud_asm_hacks": "net.gudenau.minecraft.asm.hacks.HackAdapter"
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "*"
+  },
+  "suggests": {}
+}
